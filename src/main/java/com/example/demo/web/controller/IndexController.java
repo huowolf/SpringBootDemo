@@ -34,4 +34,7 @@ public class IndexController {
     public String hello(){
         return "Hello world!";
     }
+
+    @GetMapping("/test")
+    public String test() { return "test";}
 }
