@@ -29,4 +29,9 @@ public class IndexController {
         return jsonObject;
     }
 
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello world!";
+    }
 }
